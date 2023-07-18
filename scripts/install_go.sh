@@ -30,6 +30,7 @@ function main() {
       --location \
       --retry 15 \
       --retry-delay 2 \
+      --retry-all-errors \
       --output "/tmp/go.tgz"
 
     local sha
